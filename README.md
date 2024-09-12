@@ -1,26 +1,24 @@
-**Options Pricing Model**
+# Options Pricing Model
 
 This repository contains a Jupyter Notebook that develops an Options Pricing Model using data from the Chicago Board Options Exchange (CBOE). The project focuses on preprocessing options data, engineering features, and training a machine learning model to predict option prices based on historical trading data.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Table of Contents**
-- Project Overview
-- Data Sources
-- Installation
-- Usage
-- Model and Features
-- Contributing
-- License
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Project Overview**
+## Project Overview
 This project leverages machine learning techniques to build a model that predicts options pricing. It utilizes options data from the CBOE, including daily trading volumes for the years 2021 to 2023. The model is built using a Neural Network implemented via TensorFlow/Keras, after extensive feature engineering.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Key Steps:**
+## Key Steps:
 - Data Loading and Merging: The notebook loads daily volume data for options trades from CSV files.
 - Preprocessing: Data formatting, date handling, and moving averages are computed.
 - Feature Engineering: Features such as moving averages are created from volume data to be used in modeling.
@@ -28,23 +26,23 @@ This project leverages machine learning techniques to build a model that predict
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Data Sources**
+## Data Sources
 
 
 The options data used in this project comes from the Chicago Board Options Exchange (CBOE). The data includes daily volume of options trades over three years: 2021, 2022, and 2023.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Installation**
+## Installation
 To get started, clone this repository and install the necessary dependencies.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Prerequisites**
+## Prerequisites
 - Python 3.x
 - Jupyter Notebook
 
-**Libraries Used**
+## Libraries Used
 - pandas
 - scikit-learn
 - tensorflow
@@ -55,7 +53,7 @@ You can install the required Python libraries using the following command:
 
 `pip install -r requirements.txt`
 
-**Usage**
+## Usage
 
 
 **Running the Jupyter Notebook**
