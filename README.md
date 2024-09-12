@@ -32,3 +32,24 @@ This project leverages machine learning techniques to build a model that predict
 The options data used in this project comes from the Chicago Board Options Exchange (CBOE). The data includes daily volume of options trades over three years: 2021, 2022, and 2023.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Installation**
+To get started, clone this repository and install the necessary dependencies.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Prerequisites**
+- Python 3.x
+- Jupyter Notebook
+
+**Libraries Used**
+- pandas
+- scikit-learn
+- tensorflow
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You can install the required Python libraries using the following command:
+
+`pip install -r requirements.txt`
+
