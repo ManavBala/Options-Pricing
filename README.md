@@ -66,7 +66,9 @@ To use the model, simply open the Jupyter notebook and execute the cells. The no
 `git clone https://github.com/your-username/options-pricing-model.git`
 
 2) Install the necessary libraries:
+   
 `pip install -r requirements.txt`
 
-3) Run the Jupyter notebook:
+4) Run the Jupyter notebook:
+   
 `jupyter notebook Options_Pricing_Model.ipynb`
