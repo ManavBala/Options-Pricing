@@ -25,3 +25,10 @@ This project leverages machine learning techniques to build a model that predict
 - Preprocessing: Data formatting, date handling, and moving averages are computed.
 - Feature Engineering: Features such as moving averages are created from volume data to be used in modeling.
 - Modeling: A sequential neural network model is built using TensorFlow/Keras to predict pricing outcomes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Data Sources**
+The options data used in this project comes from the Chicago Board Options Exchange (CBOE). The data includes daily volume of options trades over three years: 2021, 2022, and 2023.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
